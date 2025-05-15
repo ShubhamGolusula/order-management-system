@@ -19,7 +19,7 @@ This is a backend Java application for managing customer orders, built with **Sp
 
 | Layer      | Technology        |
 | ---------- | ----------------- |
-| Language   | Java 17           |
+| Language   | Java 21           |
 | Framework  | Spring Boot       |
 | ORM        | Hibernate / JPA   |
 | Database   | MySQL             |
