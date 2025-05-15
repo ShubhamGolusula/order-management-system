@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:order-processing-service:
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3306/trace
+    username: user
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    properties:
+      hibernate:
+        show_sql: true
+    hibernate:
+      ddl-auto: update
